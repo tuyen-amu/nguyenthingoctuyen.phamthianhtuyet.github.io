@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CÁI TIỆM BÁNH</title>
+        <link rel="stylesheet" href="style.css"> 
+    </head>
+    <body>
+    
+        <header>
+            <h1>CÁI TIỆM BÁNH</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Trang chủ</a></li>
+                    <li><a href="#">Sản phẩm</a></li>
+                    <li><a href="#">Giới thiệu</a></li>
+                    <li><a href="#">Liên hệ</a></li>
+                </ul>
+            </nav>
+        </header>
+    
+        <section class="banner">
+            <h1>Chào mừng đến với CÁI TIỆM BÁNH</h1>
+        </section>
+    
+        <section class="products">
+            <div class="product-list">
+                <div class="product">
+                    <img src="image.css/ảnh 1.webp" alt="Bánh Kem Dâu">
+                    <h3>Bánh Kem Dâu</h3>
+                    <p>Giá: 300.000đ</p>
+                    <button>Mua ngay</button>
+                </div>
+                <div class="product">
+                    <img src="image.css/ảnh 2.webp" alt="Bánh Kem Chocolate">
+                    <h3>Bánh Kem Chocolate</h3>
+                    <p>Giá: 350.000đ</p>
+                    <button>Mua ngay</button>
+                </div>
+                <div class="product">
+                    <img src="image.css/ảnh3.jpg" alt="Bánh Tiramisu">
+                    <h3>Bánh Tiramisu</h3>
+                    <p>Giá: 200.000đ</p>
+                    <button>Mua ngay</button>
+                </div>
+            </div>
+            <div class="product-list">
+                <div class="product">
+                    <img src="image.css/ảnh 4.PNG" alt="Bánh Panna Cotta">
+                    <h3>Bánh Panna Cotta</h3>
+                    <p>Giá: 65.000đ</p>
+                    <button>Mua ngay</button>
+                </div>
+                <div class="product">
+                    <img src="image.css/ảnh 5.JPG" alt="Bánh Bông lan trứng muối">
+                    <h3>Bánh Bông lan trứng muối</h3>
+                    <p>Giá: 120.000đ</p>
+                    <button>Mua ngay</button>
+                </div>
+                <div class="product">
+                    <img src="image.css/ảnh 6.JPG" alt="Bánh Green Bliss-Mousse Bơ">
+                    <h3>Bánh Green Bliss-Mousse Bơ</h3>
+                    <p>Giá: 530.000đ</p>
+                    <button>Mua ngay</button>
+                </div>
+                <div class="product">
+                    <img src="image.css/ảnh 7.webp" alt="Bánh Croissant">
+                    <h3>Bánh Croissant</h3>
+                    <p>Giá: 45.000đ</p>
+                    <button>Mua ngay</button>
+                </div>
+                <div class="product">
+                    <img src="image.css/ảnh 8.webp" alt="Bánh Macaron">
+                    <h3>Bánh Macaron</h3>
+                    <p>Giá: 50.000đ</p>
+                    <button>Mua ngay</button>
+                </div>
+                <div class="product">
+                    <img src="image.css/ảnh 9.jpg" alt="Bánh Cheesecake">
+                    <h3>Bánh Cheesecake</h3>
+                    <p>Giá: 75.000đ</p>
+                </div>   
+            </div>
+        </section>
+        <section id="contact" class="contact">
+            <p>Địa chỉ: 364/31 Thoại Ngọc Hầu, Phú Thạnh, Tân Phú, TP.HCM</p>
+            <div class="social-links">
+              <a href="https://www.facebook.com/share/1AK5xoctft/?mibextid=wwXIfr" target="_blank">Facebook</a>
+              <a href="https://zalo.me/0866679558" target="_blank">Zalo</a>
+              <a href="https://www.instagram.com/ngc.tyeen_?igsh=NjQyc282Nzl4YzZr&utm_source=qr" target="_blank">Instagram</a>
+            </div>
+          </section>
+    
+        <footer>
+            <p>&copy; 2025 CÁI TIỆM BÁNH.  221A300139-NGUYỄN THỊ NGỌC TUYỀN</p>
+            <p>&copy; 221A300272-PHẠM THỊ ÁNH TUYẾT</p>
+        </footer>
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {const sparkleContainer = document.createElement("div");
+            sparkleContainer.classList.add("sparkles");
+            document.body.appendChild(sparkleContainer);
+
+            function createSparkle() {
+                const sparkle = document.createElement("div");
+                sparkle.classList.add("sparkle");
+                sparkle.style.left = Math.random() * window.innerWidth + "px";
+                sparkle.style.top = Math.random() * window.innerHeight + "px";
+                sparkle.style.animationDuration = (Math.random() * 2 + 1) + "s";
+                sparkleContainer.appendChild(sparkle);
+
+                setTimeout(() => {
+                    sparkle.remove();
+                }, 3000);
+            }
+
+            setInterval(createSparkle, 200);
+        });
+    </script>
+
+</body>
+</html>
